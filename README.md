@@ -1,4 +1,5 @@
 #Visão Geral
+
 THttpRequest é uma classe desenvolvida em Delphi, projetada para simplificar o processo de realização de requisições HTTP/REST. 
 Ela oferece uma interface flexível e fácil de ser implementada, permitindo o envio de requisições HTTP/REST (GET, POST, PUT, DELETE) e a manipulação das respostas recebidas.
 
