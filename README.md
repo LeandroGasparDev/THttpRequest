@@ -10,7 +10,6 @@ Funcionalidades:
 - Interface Fluente: Métodos encadeáveis para configurar os parâmetros da requisição, tornando a classe fácil de usar.
 
 Exemplo de Uso:
-- delphi - Copiar código
 
 ![image](https://github.com/user-attachments/assets/869ffe48-d4c9-4c81-940f-34d7d94393a6)
 
