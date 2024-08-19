@@ -12,23 +12,9 @@ Funcionalidades:
 Exemplo de Uso:
 - delphi - Copiar código
 
-	var
-	  Response: TResponse;
-	begin
-	  Response := THttpRequest.New
-                        	.SetUrl('https://api.example.com/data')
-                      		.SetMethod(mmGet)
-                      		.SetContentType('application/json')
-                          .Execute
+![image](https://github.com/user-attachments/assets/869ffe48-d4c9-4c81-940f-34d7d94393a6)
 
-	  try
-		  ShowMessage(Response.ResponseCode);
-  		ShowMessage(Response.ResponseText);
-	  finally
-	  	Response.Free;
-	  end;
 
-	
 Instalação:
 - Adicione a unit uHttpRequest ao seu projeto Delphi.
 - Certifique-se de que as units necessárias (System.SysUtils, System.Classes, etc.) estão disponíveis no seu projeto.
