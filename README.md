@@ -11,23 +11,21 @@ Funcionalidades:
 
 Exemplo de Uso:
 - delphi - Copiar código
-	var
-	  Request: THttpRequest;
-	  Response: TResponse;
-	begin
-	  Request := THttpRequest.New
-		.SetUrl('https://api.example.com/data')
-		.SetMethod(mmGet)
-		.SetContentType('application/json');
 
-	  Response := Request.Execute;
-	  try
-		ShowMessage(Response.ResponseCode);
-		ShowMessage(Response.ResponseText);
-	  finally
-		Response.Free;
-	  end;
-	end;
+var
+  Response: TResponse;
+begin
+  Response := THttpRequest.New
+           		.SetUrl('https://api.example.com/data')
+	        	.SetMethod(mmGet)
+		        .SetContentType('application/json')
+	                .Execute;
+try
+  ShowMessage(Response.ResponseCode);
+  ShowMessage(Response.ResponseText);
+finally
+  Response.Free;
+end;
 	
 Instalação:
 - Adicione a unit uHttpRequest ao seu projeto Delphi.
