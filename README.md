@@ -11,7 +11,7 @@ Funcionalidades:
 
 Exemplo de Uso:
 
-![image](https://github.com/user-attachments/assets/c0c2e4d7-693d-4f4a-abfc-45660a37e2f1)
+![image](https://github.com/user-attachments/assets/d0d7db89-c0bb-4630-b229-a941f2698b8b)
 
 Instalação:
 - Adicione a unit uHttpRequest ao seu projeto Delphi.
